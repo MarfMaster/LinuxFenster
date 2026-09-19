@@ -1,0 +1,41 @@
+press control + arrowkey to move between spaces/words
+
+ls - lists stuff
+
+l - lists stuff a bit different, comes with extensions, example: "ls -la" displays hidden files and details/permissions
+
+mkdir - creates a folder
+
+touch - creates a file
+
+rm - deletes files, "rm -r" deletes directories
+
+rm -rf - force deletes any file you tell it to, very menacing command
+
+cat - displays content of a file in terminal, "cat -n" displays it with line numbers very neat
+
+&& - does nothing by itself but cna be used to chain/combo commands, 
+    ex: "touch filename && cat filename" to create filename file and display it's contents(gonna be empty)
+
+history - shows the history of all your terminal entries
+
+vim - opens a file in a texteditor in the terminal itself in read mode, 
+    in vim press i  to go into insert mode, lets you write stuff in the file
+
+outside of insert mode: hold d to delete stuff quickly, press dd to delete an entire line at once, 
+    press u to undo, press v to enter visual mode, lets you mark stuff with keyboard, or just do it with mouse
+
+keybinds for moving through files: press "gg" to move to top of file, 
+    press shift + g to move to bottom line of file, press shift + to move between spaces/words
+
+keybind for selecting entire line and copying it(outside of insert mode): press "yy"
+
+keybind for pasting: press "p" or hold it for many pastes
+
+press escape to exit insert mode
+
+press :q to save file content and exit vim
+
+press :w to save file content
+
+press :q to exit vim and go back to terminal, :q! to exit without saving, sometimes saves something as backup anyways xd

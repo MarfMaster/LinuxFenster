@@ -1,0 +1,30 @@
+how to use git:
+
+"git config --list" lets you check settings and whether you're loggen into any git acc rn
+
+"git help" shows huge manual for advanced stuff
+
+"git init" initializes a repo in ur current working directory, so make sure to cd to correct folder first
+
+"git status" lets you check what you're currently trying to commit, don't forget to make/add to a .gitignore file
+
+"git add" adds a file to your commit, "git add -A" adds all untracked files to your commit at once, but does respect .gitignore
+
+"git reset" removes all files from your commit, "git reset filename" removes only that one file from your commit
+
+"git commit -m "Message" makes a commit as configured with add/reset, as status said
+
+"git log" shows a log of commits
+
+"git clone URLHERE ." clones a repo from github to ur current working directory, watch ur folders
+
+"git branch -a" shows ur branches
+
+"git remote -v" shows ur repos
+
+"git diff" shows you which changes you made to the repos code
+
+"git pull origin master" lets you pull potentials changes made by other people
+
+"git push origin master" lets you push your own changes onto the online repo
+
