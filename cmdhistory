@@ -2,11 +2,21 @@ press control + arrowkey to move between spaces/words
 
 ls - lists stuff
 
+ls -l - lists the following: IsFolder, user/owner perms, group perms, other perms, number of hardlinks, file owner, file group, file size, modification time, filename
+
+ln filename hardlinkpath - adds a hardlink to a file
+
+ln -s targetfilename softlinkname - creates a softlink/shortcut
+
 l - lists stuff a bit different, comes with extensions, example: "ls -la" displays hidden files and details/permissions
 
 mkdir - creates a folder
 
 touch - creates a file
+
+touch -a -m -t (date, format yyyymmddhhmn.ms) (filename)
+^modifies modification date of a file, don't need ()
+^add -h to edit softlinks
 
 rm - deletes files, "rm -r" deletes directories
 
