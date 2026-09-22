@@ -30,4 +30,4 @@ how to use git:
 
 "git remote set-url origin git@github.com:/username/reponame.git" lets you switch to your github repo
 
-"ssh-keygen -t rsa" generates a ssh user key on your pc which you cna add into your github repo to allow you to push stuff to it without authentication, copy the contents of the .pub file as "key"
+"ssh-keygen -t ed25519 -C "email@adresshere" generates a ssh user key on your pc which you cna add into your github repo to allow you to push stuff to it without authentication, copy the contents of the .pub file as "key"
