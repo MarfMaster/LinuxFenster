@@ -26,8 +26,8 @@ how to use git:
 
 "git pull origin master" lets you pull potentials changes made by other people
 
-"git push origin master" or "git push -u origin main" lets you push your own changes onto the online repo
+"git push origin branchname" or "git push -u origin branchname" lets you push your own changes onto the online repo
 
 "git remote set-url origin git@github.com:/username/reponame.git" lets you switch to your github repo
 
-"ssh-keygen -t rsa" generates a ssh user key on your pc which you cna add into your github repo to allow you to push stuff to it without authentication, copy the contents of the .pub file as "key"
+"ssh-keygen -t ed25519 -C "email@adresshere" generates a ssh user key on your pc which you cna add into your github repo to allow you to push stuff to it without authentication, copy the contents of the .pub file as "key"
