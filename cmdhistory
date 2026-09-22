@@ -4,7 +4,7 @@ ls - lists stuff
 
 ls -l - lists the following: IsFolder, user/owner perms, group perms, other perms, number of hardlinks, file owner, file group, file size, modification time, filename
 
-ln filename hardlinkpath - adds a hardlink to a file
+ln filename hardlinktargetpath - adds a hardlink to a file
 
 ln -s targetfilename softlinkname - creates a softlink/shortcut
 
