@@ -1,0 +1,1 @@
+To check for double occurences, add the result of the int value of each char together and check whether a sum of the same value was displayed already.
