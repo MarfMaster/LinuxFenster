@@ -29,6 +29,8 @@ cat - displays content of a file in terminal, "cat -n" displays it with line num
 
 history - shows the history of all your terminal entries
 
+cc filename - compiles a c program, Moulinette adds following: -Wall -Wextra -Werror
+
 vim - opens a file in a texteditor in the terminal itself in read mode, 
     in vim press i  to go into insert mode, lets you write stuff in the file
 

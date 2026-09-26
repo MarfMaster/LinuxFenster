@@ -5,14 +5,15 @@ void ft_is_negative(int n)
 	if(n < 0)
 	{
 		answer = 'N';
-	}
+	};
 	else
 	{
 		answer = 'P';
-	}
+	};
 	write(1, &answer, 1);
 };
-void main()
+int main(void)
 {
 	ft_is_negative(-1);
+	return 0;
 };

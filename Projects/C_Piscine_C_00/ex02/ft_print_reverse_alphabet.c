@@ -1,5 +1,5 @@
 #include <unistd.h>
-void ft_print_reverse_alphabet()
+void ft_print_reverse_alphabet(void)
 {
     char yep;
     for (yep = 'a'; yep <= 'z'; ++yep)
@@ -7,6 +7,9 @@ void ft_print_reverse_alphabet()
         char nop = 'z' - yep + 'a';
 	    write(1, &nop, 1);
     };
-}
-void main()
-{ft_print_reverse_alphabet();}
+};
+int main(void)
+{
+	ft_print_reverse_alphabet();
+	return 0;
+};
