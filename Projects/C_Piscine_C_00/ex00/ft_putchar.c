@@ -1,7 +1,6 @@
 #include <unistd.h>
 void ft_putchar(char c)
 {
-	c = 'C';
 	write(1, &c, 1);
 };
 int main(void)

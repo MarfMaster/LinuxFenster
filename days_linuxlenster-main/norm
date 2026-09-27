@@ -1,0 +1,13 @@
+1- to run the norminette: 
+    norminette file.c
+
+2- theres a keybinding that prints the header in your C file
+    most likely f2!
+
+roadmap:
+    c00 ==> finish ex05 and 06 + norminette!
+    push shell00 + c00 both on da same day!
+    c01 ==> all except last 2
+    c02 ==> all except last 4
+    c03 ==> 
+ 
