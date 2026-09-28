@@ -1,15 +1,24 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: maherr <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/09/28 13:25:50 by maherr            #+#    #+#             */
+/*   Updated: 2026/09/28 13:31:16 by maherr           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include <unistd.h>
-void ft_print_reverse_alphabet(void)
+
+void	ft_print_reverse_alphabet(void)
 {
-    char yep;
-    for (yep = 'a'; yep <= 'z'; ++yep)
-    {
-        char nop = 'z' - yep + 'a';
-	    write(1, &nop, 1);
-    };
-};
-int main(void)
-{
-	ft_print_reverse_alphabet();
-	return 0;
-};
+	char	yep;
+
+	yep = 'z';
+	while (yep >= 'a')
+	{
+		write(1, &yep, 1);
+		yep--;
+	}
+}
