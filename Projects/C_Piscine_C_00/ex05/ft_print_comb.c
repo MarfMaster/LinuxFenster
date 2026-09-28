@@ -6,7 +6,7 @@
 /*   By: maherr <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 14:08:04 by maherr            #+#    #+#             */
-/*   Updated: 2026/09/28 16:07:10 by maherr           ###   ########.fr       */
+/*   Updated: 2026/09/28 16:19:22 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -33,9 +33,9 @@ void	ft_print_comb(void)
 			nums += (nums % 100) / 10 + 1;
 			while (nums % 10 <= '9' - '0')
 			{
-				write(1, nums / 100 + '0', 1);
-				write(1, nums % 100 / 10 + '0', 1);
-				write(1, nums % 10 + '0', 1);
+				write(1, "nums / 100 + 48", 1);
+				write(1, "nums % 100 / 10 + 48", 1);
+				write(1, "nums % 10 + 48", 1);
 				if (nums / 100 != 7)
 					write(2, ", ", 2);
 				//d3++;
