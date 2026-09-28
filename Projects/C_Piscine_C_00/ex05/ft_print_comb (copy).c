@@ -6,44 +6,38 @@
 /*   By: maherr <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 14:08:04 by maherr            #+#    #+#             */
-/*   Updated: 2026/09/28 16:07:10 by maherr           ###   ########.fr       */
+/*   Updated: 2026/09/28 14:55:37 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
 void	ft_print_comb(void)
 {
-	int	nums;
+	char	d1;
 
-	nums = 0;
-	//char	d1;
+	d1 = '0';
+	char	d2;
 
-	//d1 = '0';
-	//char	d2;
+	char	d3;
 
-	//char	d3;
-
-	while (nums / 100 <= '7' - '0')
+	while (d1 <= '7')
 	{
-		//d2 = d1 + 1;
-		nums += ((nums / 100) + 1) * 10;
-		while ((nums - (nums / 100 * 100)) / 10 <= '8' - '0')
+		d2 = d1 + 1;
+		while (d2 <= '8')
 		{
-			//d3 = d2 + 1;
-			nums += (nums % 100) / 10 + 1;
-			while (nums % 10 <= '9' - '0')
+			d3 = d2 + 1;
+			while (d3 <= '9')
 			{
-				write(1, nums / 100 + '0', 1);
-				write(1, nums % 100 / 10 + '0', 1);
-				write(1, nums % 10 + '0', 1);
-				if (nums / 100 != 7)
+				write(1, &d1, 1);
+				write(1, &d2, 1);
+				write(1, &d3, 1);
+				if (d1 != '7')
 					write(2, ", ", 2);
-				//d3++;
-				nums += 1;
+				d3++;
 			}
-			nums += 10;
+			d2++;
 		}
-		nums += 100;
+		d1++;
 	}
 }
 int	main(void)
