@@ -2,3 +2,5 @@ Press F1 to create header
 
 while true; do norminette; sleep 1; done
 ^continuously runs norminette so you can check if you"re writing "correct" code
+
+https://github.com/42paris/42header
