@@ -1,28 +1,47 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_comb.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: maherr <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/09/28 14:08:04 by maherr            #+#    #+#             */
+/*   Updated: 2026/09/28 14:55:37 by maherr           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include <unistd.h>
-void ft_print_comb(void)
-{
-	char digit1;
-	char digit2;
-	char digit3;
 
-	for (digit2 = '0'; digit2 < __INT8_MAX__; digit2++)
+void	ft_print_comb(void)
+{
+	char	d1;
+
+	d1 = '0';
+	char	d2;
+
+	char	d3;
+
+	while (d1 <= '7')
 	{
-		if(digit2 != digit1)
+		d2 = d1 + 1;
+		while (d2 <= '8')
 		{
-			break;
-		};
-	};
-	for (digit3 = '0'; digit3 < __INT8_MAX__; digit3++)
-	{
-		if(digit3 != digit1 && digit3 != digit2)
-		{
-			break;
-		};
-	};
-	
-};
-int main(void)
+			d3 = d2 + 1;
+			while (d3 <= '9')
+			{
+				write(1, &d1, 1);
+				write(1, &d2, 1);
+				write(1, &d3, 1);
+				if (d1 != '7')
+					write(2, ", ", 2);
+				d3++;
+			}
+			d2++;
+		}
+		d1++;
+	}
+}
+int	main(void)
 {
 	ft_print_comb();
 	return 0;
-};
+}
