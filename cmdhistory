@@ -18,6 +18,13 @@ touch -a -m -t (date, format yyyymmddhhmn.ms) (filename)
 ^modifies modification date of a file, don't need ()
 ^add -h to edit softlinks
 
+tar -cf filename - unpacks tar
+tar -tvf filename - lets you view files inside your tar
+
+tree -a - shows a tree of files, including subdirectories
+
+fish - opens an interactive shell, useful for examinations
+
 rm - deletes files, "rm -r" deletes directories
 
 rm -rf - force deletes any file you tell it to, very menacing command
