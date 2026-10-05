@@ -46,6 +46,7 @@ outside of insert mode: hold d to delete stuff quickly, press dd to delete an en
 
 keybinds for moving through files: press "gg" to move to top of file, 
     press shift + g to move to bottom line of file, press shift + to move between spaces/words
+    press shift + a to move to end of line
 
 keybind for selecting entire line and copying it(outside of insert mode): press "yy"
 
