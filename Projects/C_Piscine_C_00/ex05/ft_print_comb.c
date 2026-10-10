@@ -30,7 +30,7 @@ void	ft_print_comb(void)
 				write(1, &d2, 1);
 				write(1, &d3, 1);
 				if (d1 != '7')
-					write(2, ", ", 2);
+					write(1, ", ", 2);
 				d3++;
 			}
 			d2++;
