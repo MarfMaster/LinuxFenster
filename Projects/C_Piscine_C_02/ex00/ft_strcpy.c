@@ -6,7 +6,7 @@
 /*   By: maherr <maherr@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 18:13:47 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/05 20:01:50 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/12 17:32:20 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@ char	*ft_strcpy(char *dest, char *src)
 	int	i;
 
 	i = 0;
-	while (src[i] != 0)
+	while (src[i])
 	{
 		dest[i] = src[i];
 		i++;
 	}
 	dest[i] = src[i];
-	return (*dest);
+	return (dest);
 }

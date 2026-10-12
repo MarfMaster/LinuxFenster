@@ -6,7 +6,7 @@
 /*   By: maherr <maherr@student.42wolfsburg.de      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 17:35:05 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/06 18:05:01 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/12 17:44:52 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,5 @@ char	*ft_strcapitalize(char *str)
 		}
 		i++;
 	}
+	return (str);
 }

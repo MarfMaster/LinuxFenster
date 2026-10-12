@@ -6,7 +6,7 @@
 /*   By: maherr <maherr@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 01:10:48 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/06 01:13:12 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/12 17:42:39 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ int	ft_str_is_printable(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i] < 32)
+	while (str[i] > 31 && str[i] != 127)
 	{
 		i++;
 	}
