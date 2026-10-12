@@ -6,11 +6,12 @@
 /*   By: maherr <maherr@student.42wolfsburg.de      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 16:56:54 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/01 17:13:55 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/12 15:17:09 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
-void ft_ultimate_ft(int *********nbr) //9 *
+
+void	ft_ultimate_ft(int *********nbr)
 {
-	*********nbr = 42; //10 *
+	*********nbr = 42;
 }
