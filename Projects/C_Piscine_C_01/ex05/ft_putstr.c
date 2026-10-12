@@ -6,7 +6,7 @@
 /*   By: maherr <maherr@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 19:45:35 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/01 21:14:42 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/12 16:47:39 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -22,3 +22,8 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
+/*int main(void)
+{
+	char string[10] = "yeppa";
+	ft_putstr(string);
+}*/
