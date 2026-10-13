@@ -6,7 +6,7 @@
 /*   By: maherr <maherr@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 19:17:33 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/05 19:45:58 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/13 14:20:20 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ int	ft_str_is_alpha(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i] >= 'A' && str[i] <= 'Z' || str[i] >= 'a' && str[i] <= 'z')
+	while ((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z'))
 	{
 		i++;
 	}
