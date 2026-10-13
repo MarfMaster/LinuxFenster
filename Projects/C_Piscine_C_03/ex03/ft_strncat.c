@@ -6,14 +6,14 @@
 /*   By: maherr <maherr@student.42wolfsburg.de      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 18:04:54 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/12 18:13:19 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/13 20:09:40 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-	int	i1;
-	int	i2;
+	unsigned int	i1;
+	unsigned int	i2;
 
 	i1 = 0;
 	i2 = 0;
