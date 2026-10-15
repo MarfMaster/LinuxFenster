@@ -6,7 +6,7 @@
 /*   By: maherr <maherr@student.42wolfsburg.de      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 14:07:51 by maherr            #+#    #+#             */
-/*   Updated: 2026/10/12 16:56:41 by maherr           ###   ########.fr       */
+/*   Updated: 2026/10/14 14:13:56 by maherr           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,5 @@ int	ft_strcmp(char *s1, char *s2)
 	i = 0;
 	while (s1[i] == s2[i] && s1[i])
 		i++;
-	if (s1[i] > s2[i])
-		return (1);
-	if (s1[i] < s2[i])
-		return (-1);
-	return (0);
+	return (s1[i] - s2[i]);
 }
