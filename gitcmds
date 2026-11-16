@@ -1,6 +1,6 @@
 how to use git:
 
-"git config --list" lets you check settings and whether you're loggen into any git acc rn
+"git config --list" lets you check settings and whether you're logged into any git acc rn
 
 "git help" shows huge manual for advanced stuff
 
