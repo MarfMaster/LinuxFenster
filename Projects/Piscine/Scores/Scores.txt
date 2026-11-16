@@ -1,0 +1,5 @@
+C Piscine C00: 80%, only ex08 missing
+C Piscine C01: 85%, only ex08 missing
+C Piscine C02: 65%, missing ex09 and above
+C Piscine C03: 30%, ex01, ex04 and ex05 were wrong, rest correct
+C Piscine C04: 70%, missing ex04 and above
