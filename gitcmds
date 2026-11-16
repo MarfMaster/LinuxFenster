@@ -24,9 +24,9 @@ how to use git:
 
 "git diff" shows you which changes you made to the repos code
 
-"git pull origin master" lets you pull potentials changes made by other people
+"git pull origin BRANCHNAME" lets you pull potentials changes made by other people
 
-"git push origin branchname" or "git push -u origin branchname" lets you push your own changes onto the online repo
+"git push origin BRANCHNAME" or "git push -u origin BRANCHNAME" lets you push your own changes onto the online repo
 
 "git remote set-url origin git@github.com:/username/reponame.git" lets you switch to your github repo
 
